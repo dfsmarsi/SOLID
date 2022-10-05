@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="O_AbertoFechado\ApiEmail.cs" />
+    <Compile Include="O_AbertoFechado\EnvioDeEmailCriptografadoService.cs" />
+    <Compile Include="O_AbertoFechado\EnvioDeEmailDeTextoSemFormatacaoService.cs" />
+    <Compile Include="O_AbertoFechado\EnvioDeEmailService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="S_ResponsabilidadeUnica\GravacaoDeVenda.cs" />
