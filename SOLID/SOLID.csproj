@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="L_SubstituicaoDeLiskov\Funcionario.cs" />
+    <Compile Include="L_SubstituicaoDeLiskov\Gerente.cs" />
+    <Compile Include="L_SubstituicaoDeLiskov\PagamentoDeSalariosService.cs" />
+    <Compile Include="L_SubstituicaoDeLiskov\Program.cs" />
+    <Compile Include="L_SubstituicaoDeLiskov\Programador.cs" />
     <Compile Include="O_AbertoFechado\ApiEmail.cs" />
     <Compile Include="O_AbertoFechado\EnvioDeEmailCriptografadoService.cs" />
     <Compile Include="O_AbertoFechado\EnvioDeEmailDeTextoSemFormatacaoService.cs" />
